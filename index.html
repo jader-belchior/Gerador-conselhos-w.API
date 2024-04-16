@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Conselhos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container" id="container">
+            <div class="card" id="card">
+                <p class="number" id="number">ADVICE #000</p>
+                <p class="advice" id="advice">"There's a fundamental connection between seeming and being. Few understand how dangerous a mask can be."</p>
+                <picture>
+                    <source srcset="./src/images/pattern-divider-desktop.svg" media="(min-width: 475px)" alt="divisor desktop">
+                    <img src="./src/images/pattern-divider-mobile.svg" alt="divisor mobile">
+                </picture>
+                
+                <button class="dice" id="dice">
+                    <img src="./src/images/icon-dice.svg" alt="dado">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
